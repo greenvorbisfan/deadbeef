@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DeaDBeeF Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-09 15:53+0100\n"
-"PO-Revision-Date: 2024-07-03 13:35+0300\n"
+"PO-Revision-Date: 2024-07-03 19:40+0300\n"
 "Last-Translator: Alexander Froloff <alexander.froloff@mxc.ru>\n"
 "Language-Team: English (United Kingdom) (http://app.transifex.com/deadbeef-"
 "player/deadbeef-player/language/en_GB/)\n"
@@ -802,37 +802,37 @@ msgstr "Выделенное"
 #: ../plugins/gtkui/deadbeef.glade.h:17 ../plugins/gtkui/interface.c:257
 #: ../plugins/gtkui/interface.c:5453
 msgid "Crop"
-msgstr "Обрезка"
+msgstr "Обрезать"
 
 #: ../plugins/gtkui/deadbeef.glade.h:18 ../plugins/gtkui/interface.c:261
 msgid "_Find"
-msgstr "Поиск"
+msgstr "Найти"
 
 #: ../plugins/gtkui/deadbeef.glade.h:19 ../plugins/gtkui/interface.c:265
 msgid "Sort by"
-msgstr "Сортировать по"
+msgstr "Сортировка"
 
 #: ../plugins/gtkui/deadbeef.glade.h:21 ../plugins/gtkui/interface.c:276
 msgid "Track number"
-msgstr "Номеру трека"
+msgstr "Номер трека"
 
 #: ../plugins/gtkui/deadbeef.glade.h:22 ../plugins/gtkui/interface.c:280
 #: ../plugins/gtkui/interface.c:2053 ../plugins/gtkui/playlist/plcommon.c:78
 #: ../translation/extra.c:6
 msgid "Album"
-msgstr "Альбому"
+msgstr "Альбом"
 
 #. Track properties dialog
 #: ../plugins/gtkui/deadbeef.glade.h:23 ../plugins/gtkui/interface.c:284
 #: ../plugins/gtkui/playlist/plcommon.c:77
 #: ../plugins/gtkui/playlist/plcommon.c:904 ../translation/extra.c:2
 msgid "Artist"
-msgstr "Исполнителю"
+msgstr "Исполнитель"
 
 #: ../plugins/gtkui/deadbeef.glade.h:24 ../plugins/gtkui/interface.c:288
 #: ../translation/extra.c:7
 msgid "Date"
-msgstr "Дате"
+msgstr "Дата"
 
 #: ../plugins/gtkui/deadbeef.glade.h:25 ../plugins/gtkui/interface.c:292
 msgid "Random"
@@ -893,7 +893,7 @@ msgstr "Альбомы"
 
 #: ../plugins/gtkui/deadbeef.glade.h:38 ../plugins/gtkui/interface.c:364
 msgid "Random Tracks"
-msgstr "Случаные треки"
+msgstr "Случайные треки"
 
 #: ../plugins/gtkui/deadbeef.glade.h:39 ../plugins/gtkui/interface.c:370
 msgid "Repeat"
@@ -1159,8 +1159,8 @@ msgid ""
 "Album"
 msgstr ""
 "Согласно режиму воспроизведения\n"
-"По треку\n"
-"По альбому"
+"Трек\n"
+"Альбом"
 
 #: ../plugins/gtkui/deadbeef.glade.h:104 ../plugins/gtkui/interface.c:2059
 msgid "Processing:"
@@ -1540,8 +1540,7 @@ msgid ""
 msgstr ""
 "Используйте «Применить» для сохранения\n"
 "или «Вернуть» для отката изменений.\n"
-"Изменения НЕ сохранятся до нажатия\n"
-"«Применить»"
+"Изменения НЕ сохранятся до нажатия «Применить»."
 
 #: ../plugins/gtkui/deadbeef.glade.h:196 ../plugins/gtkui/interface.c:3177
 msgid "_Defaults"
@@ -1850,7 +1849,7 @@ msgstr "Импорт предустановки foobar2000"
 #: ../plugins/gtkui/eq.c:311 ../translation/plugins.c:423
 #, no-c-format
 msgid "Enable"
-msgstr "Разрешён"
+msgstr "Включить"
 
 #: ../plugins/gtkui/eq.c:320
 msgid "Zero All"
@@ -2147,7 +2146,7 @@ msgstr "Согласно режиму воспроизведения"
 
 #: ../plugins/gtkui/interface.c:2052
 msgid "Track"
-msgstr "По треку"
+msgstr "Трек"
 
 #: ../plugins/gtkui/interface.c:2068 ../plugins/gtkui/playlist/plcommon.c:896
 #: ../plugins/gtkui/widgets.c:3222 ../plugins/gtkui/widgets.c:3884
@@ -3076,7 +3075,7 @@ msgstr "Расположение"
 #: ../translation/plugins.c:48
 #, no-c-format
 msgid "Save to file name"
-msgstr "Сохранить в имя файла"
+msgstr "Имя сохраняемого файла"
 
 #: ../translation/plugins.c:50
 #, no-c-format
@@ -3514,7 +3513,7 @@ msgstr "Чувствительность контроля громкости"
 #: ../translation/plugins.c:256
 #, no-c-format
 msgid "Custom status icon"
-msgstr "Пользовательский"
+msgstr "Пользовательский значок статуса"
 
 #: ../translation/plugins.c:258
 #, no-c-format
@@ -3529,7 +3528,7 @@ msgstr "Разделители в контекстном меню"
 #: ../translation/plugins.c:262
 #, no-c-format
 msgid "Use unicode chars instead of images for track state"
-msgstr "Использовать символы Unisode вместо изображений в статусе трека"
+msgstr "Использовать символы Unicode вместо изображений в статусе трека"
 
 #: ../translation/plugins.c:264
 #, no-c-format
