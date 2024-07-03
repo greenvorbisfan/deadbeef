@@ -97,3 +97,5 @@ plugins/gtkui/gtkui-gresources.c
 build/
 dist/
 testbuild/
+update
+sync
