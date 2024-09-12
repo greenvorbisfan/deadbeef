@@ -11,6 +11,7 @@ STATIC_DEPS:=$(ORIGIN)/static-deps
 STATIC_ROOT:=$(STATIC_DEPS)/lib-x86-64
 INCLUDE=-I external/googletest/googletest \
 	-I external/googletest/googletest/include \
+	-I external/googletest/googlemock/include \
 	-I external/mp4p/include \
 	-I plugins/libparser \
 	-I shared \
@@ -98,7 +99,10 @@ $(BUILD)/runtests: $(TEST_C_OBJS) $(GOOGLE_TEST_OBJS) $(TEST_CPP_OBJS)
 	$(CXX) $(LDFLAGS) $(TEST_C_OBJS) $(GOOGLE_TEST_OBJS) $(TEST_CPP_OBJS) $(LIBRARIES) -o $@
 
 runtests: $(BUILD)/runtests
-	./$(BUILD)/runtests
+	mkdir $(BUILD)/Tests
+	cp -r Tests/TestData $(BUILD)/Tests/
+	cp -r Tests/PresetManagerData $(BUILD)/Tests/
+	cd $(BUILD) ; ./runtests
 
 $(BUILD)/Test%: $(TEST_C_OBJS) $(GOOGLE_TEST_OBJS) $(BUILD)/%Tests.o $(BUILD)/gtest-runner.o
 	$(CXX) $(LDFLAGS) $^ $(LIBRARIES) -o $@
